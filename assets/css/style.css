@@ -2871,4 +2871,73 @@ E. Template Specific Elements
     .ts-carousel-centered .owl-nav .owl-prev {
         left: 2.5rem;
     }
+    
 }
+
+.form-container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #f16c4f;
+    text-align: center;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #f16c4f;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333333;
+  }
+  
+  .form-group textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Submit Button Styling */
+  .btn-submit {
+    display: inline-block;
+    background: #f16c4f;
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  
+  .btn-submit:hover {
+    background: #0056b3;
+  }
