@@ -792,16 +792,6 @@ p {
     font-size: .8125rem !important;
 }
 
-.ts-xs-text-center {
-}
-
-/*-------------------------------------------
-  -- Title
--------------------------------------------*/
-
-.ts-title {
-}
-
 .ts-title h5 {
     font-weight: normal;
     opacity: .5;
@@ -1361,8 +1351,7 @@ blockquote h6 {
     border: none;
 }
 
-.ts-card__image {
-}
+
 
 /*-------------------------------------------
   -- Circle
@@ -1934,7 +1923,7 @@ select.form-control {
     margin-top: -0.125rem;
     padding: .5rem;
     -webkit-appearance: none;
-       -moz-appearance: none;
+    -moz-appearance: none;
     text-indent: .0625rem;
     text-overflow: '';
 }
@@ -2393,9 +2382,7 @@ E. Template Specific Elements
     width: .75rem;
 }
 
-.ts-time-line__horizontal .ts-time-line__item .ts-box {
-    /*triangle*/
-}
+
 
 .ts-time-line__horizontal .ts-time-line__item .ts-box:after {
     border-color: #fff transparent transparent transparent;
@@ -2941,3 +2928,4 @@ E. Template Specific Elements
   .btn-submit:hover {
     background: #0056b3;
   }
+ 
