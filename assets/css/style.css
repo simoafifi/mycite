@@ -2928,4 +2928,92 @@ E. Template Specific Elements
   .btn-submit:hover {
     background: #0056b3;
   }
- 
+
+
+  
+ /* General Styles */
+#ts-hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+/* Text Responsiveness */
+#ts-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#ts-hero h1.ts-bubble-border {
+    font-size: 1.8rem;
+}
+
+/* Background Image */
+.ts-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Social Icons */
+.ts-social-icons {
+    justify-content: center;
+}
+
+.ts-social-icons a {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+.ts-social-icons a:hover {
+    color: #f50057;
+}
+
+/* Button */
+.ts-btn-effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #ts-hero .container {
+        text-align: center;
+    }
+
+    #ts-hero h1 {
+        font-size: 2rem;
+    }
+
+    #ts-hero h1.ts-bubble-border {
+        font-size: 1.5rem;
+    }
+
+    .ts-social-icons a {
+        margin: 0 10px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #ts-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    #ts-hero h1.ts-bubble-border {
+        font-size: 1.2rem;
+    }
+
+    .ts-social-icons a {
+        font-size: 1rem;
+    }
+}
+
