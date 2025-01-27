@@ -3016,4 +3016,53 @@ E. Template Specific Elements
         font-size: 1rem;
     }
 }
+.service-card {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.service-card-content {
+    position: relative;
+    z-index: 2;
+    padding: 15px;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    z-index: 1;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.service-card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 

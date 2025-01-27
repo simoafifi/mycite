@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     
 	<title>Simo - Personal Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
@@ -83,49 +85,48 @@
         <!--*********************************************************************************************************-->
         <!--************ HERO ***************************************************************************************-->
         <!--*********************************************************************************************************-->
-        <div id="ts-hero" class="ts-animate-hero-items" style="position: relative; overflow: hidden;">
-
-            <!-- HERO CONTENT -->
-            <div class="container position-relative h-100 ts-align__vertical">
-                <div class="row w-100">
-                    <div class="col-md-8 col-sm-12 text-center text-md-left">
-                        <!-- SOCIAL ICONS -->
-                        <figure class="ts-social-icons mb-4">
-                            
-                            <a href="https://www.instagram.com/blafilter1/" class="mr-3">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </figure>
+        <div id="ts-hero" style="position: relative; height: 100vh; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+                <source src="assets/video-bg1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         
-                        <!-- TITLE -->
-                        <h1 style="font-size: 2rem; font-weight: bold; margin-bottom: 10px;">I am Mohamed</h1>
-                        <h1 class="ts-bubble-border" style="font-size: 1.5rem; line-height: 1.2;">
-                            <span class="ts-title-rotate">
-                                <span class="active">Video editor</span>
-                                <span>Videographer</span>
-                                <span>Creative Person</span>
-                            </span>
-                        </h1>
-                    </div>
-                    <!-- end col-md-8 -->
+            <!-- Overlay for Darkening the Background -->
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); z-index: -1;"></div>
+        
+            <!-- Hero Content -->
+            <div class="container text-center text-white">
+                <!-- Social Icons -->
+                <div class="mb-4">
+                    <a href="https://www.instagram.com/blafilter1/" class="text-white mr-3" style="font-size: 1.5rem;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/your-profile" class="text-white mr-3" style="font-size: 1.5rem;">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.fiverr.com/your-profile" class="text-white" style="font-size: 1.5rem;">
+                        <i class="fab fa-fiverr"></i>
+                    </a>
                 </div>
-                <!-- end row -->
-                <a href="#my-services" class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3">
-                    <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
-                        <i class="fa fa-arrow-down text-white"></i>
+        
+                <!-- Title -->
+                <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 15px;">I am Mohamed</h1>
+                <h2 style="font-size: 1.5rem; line-height: 1.5;">
+                    <span class="ts-title-rotate">
+                        <span class="active">Video Editor</span>
+                        <span>Videographer</span>
+                        <span>Creative Person</span>
                     </span>
-                    <span class="ts-hidden ts-circle__sm rounded-0">
-                        <i class="fa fa-arrow-down text-white"></i>
-                    </span>
+                </h2>
+        
+                <!-- Call to Action Button -->
+                <a href="#portfolio" class="btn btn-primary mt-4" style="padding: 10px 20px; font-size: 1.2rem; border-radius: 50px;">
+                    Explore My Work
                 </a>
             </div>
-            <!-- end container -->
-        
-            <!-- HERO BACKGROUND -->
-            <div class="ts-background">
-                <div class="ts-background-image" data-bg-image="assets/img/bg25.png" style="background-image: url('assets/img/BG2025.png'); background-size: cover; background-position: center;"></div>
-            </div>
         </div>
+        
         
         <!--end #hero-->
 
@@ -135,116 +136,59 @@
         <main id="ts-content">
 
             <!--MY SERVICES ***********************************************************************************-->
-            <section id="my-services" class="ts-block ts-xs-text-center pb-0" style="background: linear-gradient(0deg, #090979, #101211)">
-                <div class="container" >
-                    <div class="ts-title text-center">
-                        <h2>My Services</h2>
+            <section id="my-services" class="ts-block ts-xs-text-center pb-5" style="background: linear-gradient(0deg, #010102, #010102);">
+                <div class="container">
+                    <!-- Section Title -->
+                    <div class="ts-title text-center mb-5">
+                        <h2 class="text-white">MY SERVICES</h2>
                     </div>
-                    <!--end ts-title-->
+                    <!-- End Title -->
+            
+                    <!-- Service Cards -->
                     <div class="row">
-                       <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".1s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon_camera.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Photography</h4>
-                                        <p class="mb-0">
-                                            Capturing the essence of moments through a creative lens, delivering high-quality images that tell compelling stories.
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                            
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
+                        <!-- Photography -->
+                        <div class="col-sm-6 col-md-4 mb-4">
+                            <div class="service-card" style="background-image: url('assets/img/ME-WORK.png');">
+                                <div class="service-card-content">
+                                    <img src="assets/img/icon_camera.png" alt="Photography Icon" class="service-icon">
+                                    <h4>Photography</h4>
+                                    <p>Capturing the essence of moments through a creative lens, delivering high-quality images that tell compelling stories.</p>
                                 </div>
-                                <!--end ts-item-content-->
                             </div>
-                            <!--end ts-item-->
                         </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".2s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon_editing.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Video Editing</h4>
-                                        <p class="mb-0">
-                                            Transforming raw footage into captivating stories with seamless transitions, dynamic effects, and professional polish.                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                           
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
+            
+                        <!-- Video Editing -->
+                        <div class="col-sm-6 col-md-4 mb-4">
+                            <div class="service-card" style="background-image: url('assets/img/video-editing-bg.jpg');">
+                                <div class="service-card-content">
+                                    <img src="assets/img/icon_editing.png" alt="Video Editing Icon" class="service-icon">
+                                    <h4>Video Editing</h4>
+                                    <p>Transforming raw footage into captivating stories with seamless transitions, dynamic effects, and professional polish.</p>
                                 </div>
-                                <!--end ts-item-content-->
                             </div>
-                            <!--end ts-item-->
                         </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".3s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon_video.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Videography</h4>
-                                        <p class="mb-0">
-                                            Creating persuasive and impactful content that connects with audiences, enhances brand identity, and drives action.
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                           
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
+            
+                        <!-- Videography -->
+                        <div class="col-sm-6 col-md-4 mb-4">
+                            <div class="service-card" style="background-image: url('assets/img/videography-bg.jpg');">
+                                <div class="service-card-content">
+                                    <img src="assets/img/icon_video.png" alt="Videography Icon" class="service-icon">
+                                    <h4>Videography</h4>
+                                    <p>Creating persuasive and impactful content that connects with audiences, enhances brand identity, and drives action.</p>
                                 </div>
-                                <!--end ts-item-content-->
                             </div>
-                            <!--end ts-item-->
                         </div>
-                        <!--end col-xl-4-->
-                        
-                        <!--end col-xl-4-->
-                        
-                        <!--end col-xl-4-->
-
                     </div>
-                    <!--end row-->
+                    <!-- End Service Cards -->
                 </div>
-                <!--end container-->
             </section>
+            
             <!--END MY SERVICES *************************************************************************************-->
 
             <section id="about-me" class="ts-block pb-4" style="background: linear-gradient(0deg, #020312, #020312);">
                 <div class="container" >
                     <div class="ts-title text-center">
-                        <h2>About Me</h2>
+                        <h2>ABOUT ME</h2>
                     </div>
                     <!--end ts-title-->
                     <div class="row ts-align__vertical">
@@ -307,7 +251,7 @@
             <section id="my-skills" class="ts-block pb-5">
                 <div class="container">
                     <div class="ts-title text-center">
-                        <h2>My Skills</h2>
+                        <h2>MY SKILLS</h2>
                     </div>
                     <!--end ts-title-->
                     <h4>Every Day is a  New Challenge</h4>
@@ -356,9 +300,9 @@
                 </div>
                 <!--end container-->
             </section>
-            <section id="portfolio" style="background: linear-gradient(0deg, #090979, #020312); color: #ffffff; padding: 60px 20px;">
+            <section id="portfolio" style="background: linear-gradient(0deg, #020312, #020312); color: #ffffff; padding: 60px 20px;">
                 <div class="container">
-                  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">My Video Portfolio</h2>
+                  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">MY VIDEO PORTFOLIO</h2>
                   <p style="text-align: center; font-size: 1.2rem; margin-bottom: 50px;">
                     Explore my latest video editing projects and play them fullscreen.
                   </p>
@@ -562,7 +506,7 @@
         <!--*********************************************************************************************************-->
         <footer id="ts-footer" class="mt-5">
 
-            <section id="contact" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-man-wall.jpg" data-bg-image-opacity=".1" style="background: linear-gradient(0deg, #050565, #020312);" >
+            <section id="contact" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-man-wall.jpg" data-bg-image-opacity=".1" style="background: linear-gradient(0deg, #020312, #020312);" >
                 <div class="container">
                     <div class="ts-title text-center">
                         <h2 class="ts-bubble-border">Get In Touch</h2>
@@ -617,7 +561,7 @@
                                     <div class="ts-column-count-sm-2">
                                         
                                         <!--end link-->
-                                        <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
+                                        <a href="https://www.linkedin.com/in/simo-afifi-846174188/" class="mb-3 d-flex text-white ts-align__vertical">
                                         <span class="ts-circle__xs border border-white ts-border-light mr-4">
                                             <i class="fab fa-linkedin"></i>
                                         </span>
